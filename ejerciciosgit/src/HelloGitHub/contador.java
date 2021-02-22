@@ -8,6 +8,13 @@ public class contador {
 				System.out.print(i+" ");
 			}
 			System.out.print("soy alejandro");
+			nuevoContador();			
+	}
+	
+	public static void nuevoContador() {
+		for(int i = 0; i<=20;i++) {
+			System.out.print(i+" ");
+		}
 	}
 
 }
